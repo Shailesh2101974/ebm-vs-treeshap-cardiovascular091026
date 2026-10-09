@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC AUC,AUPRC,Brier Score,Log Loss,"Latency (ms/1k, predict only)"
+Logistic Regression,0.8443,0.4118,0.0543,0.0959,0.7022,0.2988,0.1214,0.3961,1.8822
+Random Forest,0.8455,0.4167,0.0388,0.0709,0.6348,0.2501,0.1281,0.4255,35.6937
+Optimized GBDT,0.842,0.4,0.0775,0.1299,0.6623,0.2496,0.128,0.4181,3.2609
+Glassbox EBM,0.8526,0.6429,0.0698,0.1259,0.6933,0.2945,0.1216,0.3978,2.8984
