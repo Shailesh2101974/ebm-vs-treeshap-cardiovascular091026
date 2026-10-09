@@ -1,0 +1,33 @@
+{
+  "config": {
+    "SEED": 42,
+    "B": 10,
+    "RUN_STABILITY": {
+      "primary": true,
+      "framingham": true
+    },
+    "TUNE_GBDT": {
+      "primary": false,
+      "framingham": false
+    },
+    "AUC_CI_RESAMPLES": 1000,
+    "STABILITY_EBM_OUTER_BAGS": null,
+    "STABILITY_EBM_INTERACTIONS": null,
+    "OUT_DIR": "/content/drive/MyDrive/results",
+    "PRIMARY_PATH": null,
+    "FRAMINGHAM_PATH": null
+  },
+  "gbdt_params": {
+    "primary": {
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "max_depth": 4,
+      "random_state": 42
+    },
+    "framingham": {
+      "n_estimators": 100,
+      "max_depth": 3,
+      "random_state": 42
+    }
+  }
+}
